@@ -1,0 +1,6 @@
+food1 = input("What is your most favourate food?")
+food2 = input('What is your second most favourate food?")
+
+print(food1 + food2)
+
+input("Press the enter key ot exit the application")
