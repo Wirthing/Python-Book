@@ -1,0 +1,23 @@
+#Coin flipper program
+#Yes i wanted them to all be printed
+import random
+
+head_count = 0
+tail_count = 0
+total = 0
+
+while total != 100:
+    choice = random.randint(1, 2)
+    if choice == 1:
+        print("heads")
+        head_count += 1
+        total += 1
+
+    elif choice == 2:
+        print("tails")
+        tail_count += 1
+        total += 1
+
+print("There were ", head_count, "heads, and ", tail_count, "tails.")
+
+  
