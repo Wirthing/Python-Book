@@ -1,0 +1,23 @@
+#Car salesman car balance:
+#challenge 4 chapter 2
+
+print("Welcome to the Car Salesman Program")
+
+initialcost = float(input("What is the initial cost of the car?"))
+                    
+tax = initialcost / 60
+print("\nThe tax would cost:", tax)
+                    
+destcharge = 150
+print("\nThe destination charge would cost:", destcharge)
+                    
+licens = initialcost / 88
+print("\nThe license would cost:", licens)
+
+dealerprep = 325
+print("\nThe dealer prep would cost:")
+
+total = initialcost + tax + destcharge + licens + dealerprep
+print("\nThe total outcome = £",total)
+
+input("\n\Press the enter key to exit the application...")
