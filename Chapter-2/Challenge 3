@@ -1,0 +1,13 @@
+#Tipper program
+
+bill = float(input("How much was your bill tonight?"))
+
+#TIPS
+tip15 = bill / 100 * 15
+tip20 = bill / 100 * 20
+
+choice = int(input("Would you like to give a 15% or 20% tip?"))
+if choice = 15:
+  print(tip15)
+elif choice = 20:
+  print(tip20)
