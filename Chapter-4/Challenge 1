@@ -1,0 +1,14 @@
+#Counting program for the user.
+print("Welcome to the counter program.")
+
+start = int(input("What is your starting number?"))
+stop = int(input("What is your ending number?"))
+count = int(input("Finally how much do you want to count by?"))
+print("Counting:")
+
+for i in range(start, stop, count):
+    print(i)
+
+print(stop -count + count)
+
+input("\nPress the enter key to exit...")
