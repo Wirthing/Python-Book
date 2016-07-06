@@ -1,0 +1,17 @@
+import random
+
+print("This is the word shuffler program:")
+
+WORDS = ["Pen", "python", "glass", "water", "lamp", "firefox", "wifi", "calculator",
+         "phone", "paper", "computer", "bed", "desk", "key", "light", "blue", "handle",
+         "door", "hook", "sun", "challenge", "wall", "white", "chrome", "skin", "button",
+         "free", "face", "world", "with", "music",]
+print("There are", len(WORDS), "words being put into a random order:")
+
+
+random.shuffle(WORDS)
+
+for word in WORDS:
+    print(word)
+
+input("\n\nPress the enter to key to exit the application...")
