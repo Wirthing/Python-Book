@@ -1,0 +1,28 @@
+import random
+
+print("Welcome to Guess My Number!")
+print("Im thinking of a number between 1 and 100.")
+print("Try to guess it in 5 attempts.")
+
+number = random.randint(0, 100)
+guess = int(input("What is your first guess?"))
+guesses_taken = 0
+
+if guess == number:
+    print("Well Done, Thats Correct!")
+    
+while guess != number:
+    if guess > number:
+        print("Lower...")
+        
+    else:
+        print("Higher...")
+        
+    guess = int(input("Try Again?"))
+    guesses_taken = guesses_taken +1           
+
+print("Thats correct")
+print("You completed this game in", guesses_taken, "tries!")
+
+input('\n\nPress the enter key to exit...')
+      
