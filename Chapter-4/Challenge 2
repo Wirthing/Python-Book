@@ -1,0 +1,8 @@
+#Program that reverses a phrase or word
+print("Type in any word or phrase you would like to see backwards.")
+
+word = (input("Enter your word here:"))
+length = len(word)
+print(word, "in reverse is", word[::-1])
+
+input("\n\nPress Enter to Exit...")
